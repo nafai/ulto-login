@@ -1,6 +1,6 @@
 # Ulto-Login
 
-Ulto-Login is a PHP application that fulfulls the following requirements:
+Ulto-Login is a PHP application that fulfils the following requirements:
 
 * PHP based login form
 * Local database storage and local user authentication
@@ -8,9 +8,9 @@ Ulto-Login is a PHP application that fulfulls the following requirements:
 * Complete documentation
 * Demonstrates use of classes and code reuse
 
-### Version
+### Changelog
 
-1.0
+0.1 - Initial release, submitted as test result.
 
 ### Requirements
 
@@ -22,8 +22,8 @@ Ulto-Login requires the following software:
 
 ### Unpacking
 
-* Place "ulto" directory in your web root. 
-* Put "non-public" directory somewhere outside of your web root.
+* Place contents of "src" directory in a subdirectory accessible via your web root. 
+* Place contents of "non_public" directory somewhere outside of your web root.
 * Get Google's Google PHP API Library from https://github.com/google/google-api-php-client and place it preferably somewhere outside of your web root.
 
 ### Configuration
@@ -56,7 +56,7 @@ You can use the *is_logged_in()* method to determine a user's logged in state. *
 A simple modification to the code could be made if it's necessary to determine if a user is a Google account or a local account. Storing this in the database is a good idea, as user permissions could be set there as well.
 
 ### Attribution
-* Page template (including CSS) by Thibaut Courouble. Licensed under MIT license.  Retrieved from http://www.cssflow.com/snippets/login-form on 2015-04-28.
+* Login page template (including CSS) by Thibaut Courouble. Licensed under MIT license. Retrieved from http://www.cssflow.com/snippets/login-form on 2015-04-28.
 * Some code samples from Google APIs Client Library for PHP by Google, Inc. Licensed under Apache license. Retrieved from https://github.com/google/google-api-php-client on 2015-04-28. 
 
 ### License
